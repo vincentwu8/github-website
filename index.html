@@ -1,59 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Testing Site</title>
-        <link rel="icon" href="monkey/my bird1.PNG" type="image/x-icon">
-        <link rel="stylesheet" href="style.css">
-        <script defer src="app.js"></script>
-    </head>
-    <body> 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Vincent's Site</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="cummies">
+        <nav>
+            <img src="monkey/my bird1.PNG" class="logo" alt="logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="projects.html">MORE</a></li>
+            </ul>
+        </nav>
 
-            <nav>
-                <img src="monkey/my bird1.PNG" class="logo" alt="logo"> <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="#">TEST</a></li>
-                    <li><a href="#">TEST</a></li>
-                    <li><a href="projects.html">MORE</a></li>
-                </ul>
-            </nav>
-
-            <div class="content">
-                <h1>Welcome page</h1>
-                <a href="huh" class="btn">Start here</a>
-             </div>
+        <div class="content">
+            <h1>Welcome</h1>
+            <a href="#something" class="btn">Start here</a>
         </div>
+    </div>
 
-        <section id="something" class="something">
-            <div class="black-box">
-                <div class="code-area">
-                    <div class="include color_blue">#include <div class="color_red">&nbsp;iostream</div></div>
-                    <div class="comments">// Welcome to the website</div>
-                    
-                    <div class="main hiddens">
-                        <span class="color_blue">int</span>
-                        <span class="color_purple">&nbsp;main</span>
-                        <span class="color_deafult">() {</span>
-                    </div>
-                    
-                    <div class="middle hiddens">
-                        <span class="color_red">std::cout</span>
-                        <span class="color_deafult">&nbsp;&lt;&lt;&nbsp;</span>
-                        <span class="color_green">"Welcome to Vincent's website";</span>
-                    </div>
-                    
-                    <div class="middle hiddens">}</div> 
+    <section id="something">
+        <div class="black-box">
+            <div class="editor-container">
+                <div class="line-numbers">
+                    <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
                 </div>
-
-                <div class="line-number">
-                    <div class="ln">1</div><div class="ln">2</div><div class="ln">3</div>
-                    <div class="ln">4</div><div class="ln">5</div><div class="ln">6</div>
-                    <div class="ln">7</div><div class="ln">8</div>
+                <div class="code-area">
+                    <div class="include color_blue">#include <span class="color_red">&lt;iostream&gt;</span></div>
+                    <div class="comments">// Welcome to the website</div>
+                    <div class="hiddens"><span class="color_blue">int</span> <span class="color_purple">main</span>() {</div>
+                    <div class="hiddens indent"><span class="color_red">std::cout</span> << <span class="color_green">"Welcome to Vincent's website";</span></div>
+                    <div class="hiddens">}</div>
                 </div>
             </div>
-    </div>
-</div>
-        </section>
-    </body>
+        </div>
+    </section>
+</body>
 </html>
